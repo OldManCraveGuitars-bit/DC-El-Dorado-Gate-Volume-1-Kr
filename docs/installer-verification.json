@@ -1,6 +1,6 @@
 {
-  "version": "v1.0",
-  "internal_build": "1.7.13",
+  "version": "v1.01",
+  "internal_build": "1.7.14",
   "success": true,
   "frozen_installer_gui_and_embedded_manifest_verified": true,
   "frozen_installer_end_to_end_verified": true,
@@ -20,12 +20,12 @@
   "output_hashes": {
     "track01.bin": "5b4a5857228be738a116dd8487255a0eca81e6874ab6febdca646369e7ea81bf",
     "track02.raw": "cd7c82d88f21e4ebb32a94c65f15f625df871c933d6d78cbf85c671778a6ffca",
-    "track03.bin": "da0bb860f9d1a79441df87712f93ae9660b67370ad61e6c9163ec3878a099429"
+    "track03.bin": "e642ff6b399ea654b22b5d79522140a2d4c38ebc96dbd738a3b480c98a0f9344"
   },
-  "installer_sha256": "5ee7950da2a9e9056220802dfd30e3cfc0a5b73df9e42cee5b0f2cba99b18d1f",
-  "delta_sha256": "dabcfa75fc3c2edba5d15fbe7751a49d760d7e45416c336a240be148ab3aeae6",
+  "installer_sha256": "3285c3f0f7d791959117d2fa7250b6da69fffd4e1738af52efd2227cf84301ab",
+  "delta_sha256": "37d7b955c637c8074a03cfbb92d780dc95ab809ac38f91ed1f81320b8b1e408e",
   "screenshots_checked": 14,
-  "current_focused_regression_tests_passed": 20,
+  "current_focused_regression_tests_passed": 25,
   "full_playthrough_verified": false,
   "native_ending_playback_verified": false
 }

@@ -1,0 +1,25 @@
+{
+  "issue": 1,
+  "demul": "0.7 BUILD 280418",
+  "gpu": "gpuDX11",
+  "disc_plugin": "gdrImage",
+  "observations": {
+    "japanese_original": "User confirmed normal boot",
+    "v1_0": "User confirmed BIOS menu return",
+    "original_extent_candidate": "User confirmed Korean title",
+    "final_v1_01": "User confirmed Korean title"
+  },
+  "original_main_lba": 548384,
+  "v1_0_main_lba": 46000,
+  "v1_01_main_lba": 548384,
+  "original_bytes": 1259556,
+  "patched_bytes": 1259580,
+  "allocated_sectors": 616,
+  "boot_relocation_fix_confirmed": true,
+  "native_remote_screenshot_available": false,
+  "all_53_game_files_read_back": true,
+  "regression_tests_passed": 25,
+  "unrelated_52_assets_and_font_pixels_unchanged": true,
+  "full_playthrough_verified": false,
+  "final_v1_01_title_confirmed_by_user": true
+}

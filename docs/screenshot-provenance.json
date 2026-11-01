@@ -134,5 +134,6 @@
       "file": "title.png",
       "sha256": "4997cdd91034d041f5117ab75ffe45b92b547845a7f786aac98ef7fef6397bb8"
     }
-  ]
+  ],
+  "v101_note": "The same eleven historical emulator captures and three graphic previews are retained. No new Demul screenshot is claimed; native title results were observed by the user because remote capture timed out."
 }

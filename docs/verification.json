@@ -1,16 +1,16 @@
 {
-  "public_version": "v1.0",
-  "display_name": "비공식 한글판 v1.0",
-  "internal_build": "1.7.13",
-  "release_date_kst": "2026-10-28",
-  "extracted_records": 16319,
-  "translated_records": 16188,
+  "public_version": "v1.01",
+  "display_name": "비공식 한글판 정식 버전 v1.01",
+  "internal_build": "1.7.14",
+  "release_date_kst": "2026-11-01",
+  "extracted_records": 16320,
+  "translated_records": 16189,
   "excluded_records": 131,
   "missing_extracted_translations": 0,
   "changed_game_files": 53,
   "all_changed_assets_read_back_from_disc": true,
   "changed_sectors_edc_ecc_verified": true,
-  "native_layout_rows_audited": 16188,
+  "native_layout_rows_audited": 16189,
   "native_descriptors_checked": 3515,
   "native_layout_errors": 0,
   "overflow_records_fixed": 74,
@@ -36,7 +36,9 @@
     "native_text_layout": 6,
     "chapter3_heading": 5,
     "item_comparison": 6,
-    "clear_counter": 3
+    "clear_counter": 3,
+    "disc_extent_integration": 3,
+    "native_ASCII_exit": 2
   },
   "prior_v077_context_review": {
     "unique_pairs": 5489,
@@ -56,5 +58,20 @@
   ],
   "patch_installer_end_to_end_verified": true,
   "patcher_guard_checks_passed": 3,
-  "current_focused_regression_tests_passed": 20
+  "current_focused_regression_tests_passed": 25,
+  "demul_boot_issue_fixed": true,
+  "main_original_extent_preserved": true,
+  "main_boot_lba": 548384,
+  "synthesis_headers": [
+    "합성결과",
+    "첫번째 무기",
+    "두번째 무기",
+    "첫번째 방어구",
+    "두번째 방어구"
+  ],
+  "options_exit": "나가기",
+  "new_ASCII_ui_source_record": true,
+  "all_other_52_game_assets_unchanged_from_v100": true,
+  "demul_final_title_confirmed_by_user": true,
+  "demul_verification_method": "Direct user observation of Japanese original, failing v1.0, extent-only candidate, and final v1.01 in the same isolated emulator environment"
 }
