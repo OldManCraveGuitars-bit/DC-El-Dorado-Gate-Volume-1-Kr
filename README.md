@@ -1,4 +1,4 @@
-# 엘도라도 게이트 Vol.1 · 비공식 한글판 정식 버전 v1.01
+# DC-El-Dorado-Gate-Volume-1-Kr
 
 드림캐스트 **엘도라도 게이트 Vol.1 일본판 v1.002**에 적용하는 비공식 한글 패치입니다.
 대사와 메뉴, 아이템·마법 이름, 저장 제목, 시나리오 제목 이미지, 오프닝 자막과 엔딩 크레딧을 한글화했습니다.
@@ -6,7 +6,7 @@
 
 **한글화: 기타 깎는 노인** · 공개 버전 **v1.01** · 기준 게임 빌드 **1.7.14** · 배포일 **2026년 11월 1일**
 
-[**v1.01 다운로드**](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01) · [오류 제보](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/issues) · [상세 해시](docs/HASHES.md)
+[**v1.01 다운로드**](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01) · [오류 제보](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/issues) · [상세 해시](docs/HASHES.md)
 
 ![한글 타이틀 화면](screenshots/title.png)
 
@@ -16,7 +16,7 @@
 
 ## 다운로드와 적용 방법
 
-1. [v1.01 릴리스](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01)의 **`El-Dorado-Gate-Volume-1-Kr-v1.01.zip`**을 받습니다.
+1. [v1.01 릴리스](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01)의 **`El-Dorado-Gate-Volume-1-Kr-v1.01.zip`**을 받습니다.
 2. ZIP **전체를 압축 해제**합니다. 패처 EXE와 `track03-v1.01.xdelta`를 같은 폴더에 둡니다.
 3. **`El-Dorado-Gate-Volume-1-Kr-v1.01-Patcher.exe`**를 실행합니다.
 4. **일본판 v1.002 원본 GDI**를 선택하고, 결과를 만들 **새 출력 폴더**를 지정합니다.
@@ -59,7 +59,7 @@ GDI와 트랙들은 같은 폴더에 있어야 합니다. 적용 후에도 생�
 
 ## v1.01 수정 내용 — Demul 부팅 및 UI 표기
 
-- [이슈 #1](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/issues/1)의 **Demul에서 BIOS 메뉴로 돌아가는 문제**를 수정했습니다.
+- [이슈 #1](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/issues/1)의 **Demul에서 BIOS 메뉴로 돌아가는 문제**를 수정했습니다.
 - 시작 프로그램 `1ST_READ.BIN`이 24바이트 늘었어도 원래 할당된 616개 섹터에 들어가므로, **원래 디스크 위치(LBA 548384)를 유지**하도록 빌드 도구를 고쳤습니다. 원래 공간을 넘는 다른 파일은 기존처럼 안전하게 재배치합니다.
 - 동일한 **Demul 0.7 BUILD 280418 / gpuDX11 / gdrImage** 환경에서 일본판 정상 부팅 → v1.0 BIOS 복귀 → 위치 수정 시험본의 한글 타이틀 진입을 비교했습니다. 최종 v1.01의 한글 타이틀 진입까지 사용자가 직접 확인했습니다.
 - 합성 메뉴를 **합성결과 / 첫번째 무기 / 두번째 무기 / 첫번째 방어구 / 두번째 방어구**로 맞췄습니다. 옵션의 **EXIT도 나가기**로 한글화했습니다.

@@ -6,9 +6,9 @@
 
 **한글화: 기타 깎는 노인** · 공개 버전 **v1.01** · 기준 게임 빌드 **1.7.14** · 배포일 **2026년 11월 1일**
 
-[**v1.01 다운로드**](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01) · [오류 제보](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/issues) · [상세 해시](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/HASHES.md)
+[**v1.01 다운로드**](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01) · [오류 제보](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/issues) · [상세 해시](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/HASHES.md)
 
-![한글 타이틀 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/title.png)
+![한글 타이틀 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/title.png)
 
 타이틀·대사·설정·저장 화면은 앞서 촬영한 에뮬레이터 캡처입니다. 촬영 버전과 시험 조건은 아래에 표시했습니다.
 패치 적용·번역 레이아웃·회귀 테스트가 완료된 **비공식 한글판 정식 버전 v1.01**입니다.
@@ -16,7 +16,7 @@
 
 ## 다운로드와 적용 방법
 
-1. [v1.01 릴리스](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01)의 **`El-Dorado-Gate-Volume-1-Kr-v1.01.zip`**을 받습니다.
+1. [v1.01 릴리스](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/releases/tag/v1.01)의 **`El-Dorado-Gate-Volume-1-Kr-v1.01.zip`**을 받습니다.
 2. ZIP **전체를 압축 해제**합니다. 패처 EXE와 `track03-v1.01.xdelta`를 같은 폴더에 둡니다.
 3. **`El-Dorado-Gate-Volume-1-Kr-v1.01-Patcher.exe`**를 실행합니다.
 4. **일본판 v1.002 원본 GDI**를 선택하고, 결과를 만들 **새 출력 폴더**를 지정합니다.
@@ -34,7 +34,7 @@ Windows 64비트용이며 Python을 따로 설치할 필요가 없습니다. 결
 원본 GDI와 `track01.bin`, `track02.raw`, `track03.bin`을 준비하세요.
 GDI와 트랙들은 같은 폴더에 있어야 합니다. 적용 후에도 생성된 GDI와 세 트랙을 함께 보관하세요.
 **이전 한글판에 덧씌우지 말고, 일본판 원본에 새로 적용하세요.** CHD·CDI는 이 패처의 직접 입력 형식이 아닙니다.
-원본 해시가 다르다는 메시지가 나오면 [지원 원본 해시](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/HASHES.md)를 확인하세요.
+원본 해시가 다르다는 메시지가 나오면 [지원 원본 해시](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/HASHES.md)를 확인하세요.
 
 배포물은 차이 패치와 Windows 적용 도구입니다. 원본/완성 ROM, BIOS, VMU 저장 파일은 포함하지 않습니다.
 
@@ -59,7 +59,7 @@ GDI와 트랙들은 같은 폴더에 있어야 합니다. 적용 후에도 생�
 
 ## v1.01 수정 내용 — Demul 부팅 및 UI 표기
 
-- [이슈 #1](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/issues/1)의 **Demul에서 BIOS 메뉴로 돌아가는 문제**를 수정했습니다.
+- [이슈 #1](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/issues/1)의 **Demul에서 BIOS 메뉴로 돌아가는 문제**를 수정했습니다.
 - 시작 프로그램 `1ST_READ.BIN`이 24바이트 늘었어도 원래 할당된 616개 섹터에 들어가므로, **원래 디스크 위치(LBA 548384)를 유지**하도록 빌드 도구를 고쳤습니다. 원래 공간을 넘는 다른 파일은 기존처럼 안전하게 재배치합니다.
 - 동일한 **Demul 0.7 BUILD 280418 / gpuDX11 / gdrImage** 환경에서 일본판 정상 부팅 → v1.0 BIOS 복귀 → 위치 수정 시험본의 한글 타이틀 진입을 비교했습니다. 최종 v1.01의 한글 타이틀 진입까지 사용자가 직접 확인했습니다.
 - 합성 메뉴를 **합성결과 / 첫번째 무기 / 두번째 무기 / 첫번째 방어구 / 두번째 방어구**로 맞췄습니다. 옵션의 **EXIT도 나가기**로 한글화했습니다.
@@ -68,7 +68,7 @@ GDI와 트랙들은 같은 폴더에 있어야 합니다. 적용 후에도 생�
 - 기존 한글 글꼴과 나머지 52개 게임 파일은 v1.0과 동일합니다. 디스크 파일 위치는 부팅 호환성 수정으로 달라질 수 있습니다.
 
 **기존 v1.0에 덧씌우지 말고 일본판 v1.002 원본에 v1.01 패치를 새로 적용하세요.**
-[Demul 비교 및 수정 기록](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/DEMUL-v1.01.json).
+[Demul 비교 및 수정 기록](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/DEMUL-v1.01.json).
 
 ## v1.0에 포함된 주요 수정
 
@@ -93,15 +93,15 @@ v0.77의 필드 획득 메시지 추가 번역, `보유량`, `리커버` 계열�
 
 성 안의 대화. 한글 대사와 원래 대화창·캐릭터 그래픽의 조합을 보여줍니다.
 
-![성 안의 대화](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/dialogue-hall.png)
+![성 안의 대화](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/dialogue-hall.png)
 
 장소 안내 대화.
 
-![장소 안내 대화](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/dialogue-guide.png)
+![장소 안내 대화](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/dialogue-guide.png)
 
 사령실 앞의 대화.
 
-![사령실 앞의 대화](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/dialogue-command-room.png)
+![사령실 앞의 대화](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/dialogue-command-room.png)
 
 대사 캡처는 당시의 장면 선택 시험 환경을 사용했습니다. 해당 시험용 연결은 배포 패치에 들어 있지 않습니다.
 
@@ -109,11 +109,11 @@ v0.77의 필드 획득 메시지 추가 번역, `보유량`, `리커버` 계열�
 
 X/Y 화면 위치 수치를 분리하고, 스테레오/모노와 방식 A/B를 정렬했습니다.
 
-![설정 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/options.png)
+![설정 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/options.png)
 
 저장 정보의 제목과 권·화 표기, 파일 선택 안내를 한글화했습니다.
 
-![저장/불러오기 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/save-load.png)
+![저장/불러오기 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/save-load.png)
 
 ### 오프닝 자막
 
@@ -121,11 +121,11 @@ X/Y 화면 위치 수치를 분리하고, 스테레오/모노와 방식 A/B를 �
 원래 영문 화면은 유지하고 한글 자막을 추가했으며, 화면 문구와 노랫말이 겹치는 구간은 위/아래로 구분했습니다.
 원본 ADX 음성과 디코딩한 PCM이 같은 것을 확인했습니다.
 
-![오프닝 가사 자막](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/opening-lyrics.png)
+![오프닝 가사 자막](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/opening-lyrics.png)
 
-![화면 문구와 노랫말의 동시 표시](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/opening-both-captions.png)
+![화면 문구와 노랫말의 동시 표시](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/opening-both-captions.png)
 
-![추가 화면 문구 자막](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/opening-fight-caption.png)
+![추가 화면 문구 자막](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/opening-fight-caption.png)
 
 자막은 게임 영상에 반영되어 있습니다. ZIP에 동봉한 SRT는 참고 자료이며 따로 불러올 필요가 없습니다.
 
@@ -146,7 +146,7 @@ Vol.1 디스크에 원래 들어 있던 장신구 데이터와 다운로드 상�
 
 인벤토리에 자동 지급하지 않으며 상점에서 구매합니다. **원래 가격·능력치·효과를 유지합니다.**
 
-![보너스 장신구와 장비 표시](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/bonus-items.png)
+![보너스 장신구와 장비 표시](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/bonus-items.png)
 
 시험 환경에서 5종 구매·장비 표시·VMU 저장/재불러오기·필드 복귀를 확인했습니다.
 위 장비 화면은 공개 게임 이미지로 새 부팅한 뒤 시험 VMU를 불러와 확인한 것입니다.
@@ -156,7 +156,7 @@ Vol.1 디스크에 원래 들어 있던 장신구 데이터와 다운로드 상�
 <details>
 <summary>상점 시험 화면 보기 — 이 캡처의 0 가격은 시험용입니다</summary>
 
-![시험용 보너스 재고 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/bonus-shop-test.png)
+![시험용 보너스 재고 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/bonus-shop-test.png)
 
 배포 패치는 일본판 원래 가격을 사용합니다.
 
@@ -168,20 +168,20 @@ Vol.1 디스크에 원래 들어 있던 장신구 데이터와 다운로드 상�
 
 ### 시나리오 3 제목
 
-![시나리오 3 한글 제목 그래픽](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/chapter3-title-preview.png)
+![시나리오 3 한글 제목 그래픽](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/chapter3-title-preview.png)
 
 `도둑 소녀 라디아`. 제목 부분만 바꾸고 같은 리소스의 다른 캐릭터 그래픽과 영문 표기는 보존했습니다.
 
 ### 갈무리7 상태 아이콘
 
-![상태 아이콘 갈무리9 이전안과 갈무리7 최종안 비교](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/status-galmuri7-comparison.png)
+![상태 아이콘 갈무리9 이전안과 갈무리7 최종안 비교](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/status-galmuri7-comparison.png)
 
 비교 이미지의 오른쪽이 최종 갈무리7입니다. `독`·`혼`·`마`·`사`·`공`·`방`·`염`·`속`·`회`를 원작 네모 안에 넣었습니다.
 
 <details>
 <summary>엔딩 마지막 한글화 표기 미리보기</summary>
 
-![마지막 크레딧의 한글화 표기 그래픽](https://raw.githubusercontent.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/ending-localization-credit-preview.png)
+![마지막 크레딧의 한글화 표기 그래픽](https://raw.githubusercontent.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/v1.01/screenshots/ending-localization-credit-preview.png)
 
 검은 배경 위에 크레딧 글자만 표시한 편집 원본입니다. 엔딩 전체 재생을 촬영한 화면은 아닙니다.
 
@@ -194,13 +194,13 @@ Vol.1 디스크에 원래 들어 있던 장신구 데이터와 다운로드 상�
 - 번역 **16,189개 항목**의 레이아웃 점검에서 오류 0건을 확인했습니다. 원래 대형 글씨와 삽입 이름을 포함한 검사입니다.
 - 저장된 이미지 편집 **110개**의 네이티브 미리보기를 확인했습니다.
 - 대사 레이아웃·시나리오 3 제목·비교 괄호·클리어 숫자에 대한 개별 회귀 검사 25개를 통과했습니다.
-- Windows 배포 패처 EXE를 원본 GDI에 실제 적용하고, 결과가 기준 빌드와 같은지 검사했습니다. [적용 검증 결과](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/installer-verification.json).
+- Windows 배포 패처 EXE를 원본 GDI에 실제 적용하고, 결과가 기준 빌드와 같은지 검사했습니다. [적용 검증 결과](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/installer-verification.json).
 
 **미검증 범위:** 전체 정상 플레이, 정상 경로의 보너스 상점 접근/원래 가격 구매, 엔딩 전체 재생, 실기 및 실제 BIOS 구동.
 자동 폭 검사로 잡히지 않는 상황별 배치나 문맥 문제가 남을 수 있습니다.
 엔딩은 66페이지의 그래픽 반영과 읽기 검사를 마쳤지만, 전체 재생 검증은 포함하지 않았습니다.
 
-[검증 요약](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/verification.json) · [패처 적용 검증](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/installer-verification.json) · [이미지 출처와 시험 조건](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/screenshot-provenance.json) · [53개 변경 파일 해시](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/changed-files-sha256.json)
+[검증 요약](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/verification.json) · [패처 적용 검증](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/installer-verification.json) · [이미지 출처와 시험 조건](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/screenshot-provenance.json) · [53개 변경 파일 해시](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/changed-files-sha256.json)
 
 오류 제보에는 사용 버전, 시나리오/장소, 문제 문구와 스크린샷을 남겨 주세요.
 
@@ -212,15 +212,15 @@ Vol.1 디스크에 원래 들어 있던 장신구 데이터와 다운로드 상�
 | `track02.raw` | `cd7c82d88f21e4ebb32a94c65f15f625df871c933d6d78cbf85c671778a6ffca` | 동일 |
 | `track03.bin` | `85d40e5ded0b29bb5a6e3c9e53054ec15bafe2bbf65a10b7c81a7612b75a7b80` | `e642ff6b399ea654b22b5d79522140a2d4c38ebc96dbd738a3b480c98a0f9344` |
 
-패치 파일 해시와 상세 내용은 [HASHES.md](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/HASHES.md), 기계 판독용 정보는 [hashes.json](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/hashes.json)에 있습니다.
+패치 파일 해시와 상세 내용은 [HASHES.md](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/docs/HASHES.md), 기계 판독용 정보는 [hashes.json](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/hashes.json)에 있습니다.
 
 ## 사용 도구·글꼴·크레딧
 
 **한글화: 기타 깎는 노인**
 
-- 적용 패처 소스: [tools/patcher.py](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/blob/v1.01/tools/patcher.py), MIT 라이선스.
+- 적용 패처 소스: [tools/patcher.py](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/blob/v1.01/tools/patcher.py), MIT 라이선스.
 - xdelta3 3.2.1: [공식 소스/릴리스](https://github.com/jmacd/xdelta/releases/tag/v3.2.1), Apache 2.0.
-- 갈무리 및 MaruMinya: SIL Open Font License 1.1. [라이선스 전문](https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-1-Kr/tree/v1.01/licenses/).
+- 갈무리 및 MaruMinya: SIL Open Font License 1.1. [라이선스 전문](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-1-Kr/tree/v1.01/licenses/).
 - Python과 PyInstaller 관련 라이선스도 배포 ZIP에 포함합니다.
 
 이 저장소의 패처 소스는 배포용 적용 도구입니다. 대사·이미지 비교 편집기는 별도의 작업 도구이며 ZIP에 포함하지 않습니다.
